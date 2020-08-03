@@ -43,16 +43,27 @@ MongoClient.connect(
         // )
 
         // Update a document in the collection
-        db.collection('users').updateOne({
-            name: 'Jetha Lal'
-        }, {
-            $set: {name: 'Jetha Lal Gada'}
-        })
-        .then(({ result}) => {
-            console.log(result);
-        })
-        .catch((err) => {
-            console.log(err);
-        });
+        // db.collection('users').updateOne({
+        //     name: 'Jetha Lal'
+        // }, {
+        //     $set: {name: 'Jetha Lal Gada'}
+        // })
+        // .then(({ result}) => {
+        //     console.log(result);
+        // })
+        // .catch((err) => {
+        //     console.log(err);
+        // });
+
+        // Update all documents
+        db.collection('tasks').updateMany(
+            {},
+            { $inc: {progress: 5 }})
+            .then(({result}) =>{
+                console.log(result);
+            })
+            .catch(err => {
+                console.log(err);
+            });
 
     })
