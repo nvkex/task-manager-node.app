@@ -56,14 +56,24 @@ MongoClient.connect(
         // });
 
         // Update all documents
-        db.collection('tasks').updateMany(
-            {},
-            { $inc: {progress: 5 }})
-            .then(({result}) =>{
+        // db.collection('tasks').updateMany(
+        //     {},
+        //     { $inc: {progress: 5 }})
+        //     .then(({result}) =>{
+        //         console.log(result);
+        //     })
+        //     .catch(err => {
+        //         console.log(err);
+        //     });
+
+        // Delete multiple documents
+        db.collection('users').deleteMany(
+            {name : 'Jetha Lal'})
+            .then( ({result}) => {
                 console.log(result);
             })
             .catch(err => {
-                console.log(err);
+                console.log(err)
             });
 
     })
