@@ -1,0 +1,46 @@
+2020-08-04T17:19:43.803+0530 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2020-08-04T17:19:43.803+0530 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2020-08-04T17:19:43.805+0530 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2020-08-04T17:19:43.806+0530 I  CONTROL  [initandlisten] MongoDB starting : pid=13264 port=27017 dbpath=F:/mongodb/test-server/mongodb-data 64-bit host=LAPTOP-5NU2LEHJ
+2020-08-04T17:19:43.806+0530 I  CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2020-08-04T17:19:43.806+0530 I  CONTROL  [initandlisten] db version v4.2.8
+2020-08-04T17:19:43.806+0530 I  CONTROL  [initandlisten] git version: 43d25964249164d76d5e04dd6cf38f6111e21f5f
+2020-08-04T17:19:43.807+0530 I  CONTROL  [initandlisten] allocator: tcmalloc
+2020-08-04T17:19:43.807+0530 I  CONTROL  [initandlisten] modules: enterprise 
+2020-08-04T17:19:43.807+0530 I  CONTROL  [initandlisten] build environment:
+2020-08-04T17:19:43.807+0530 I  CONTROL  [initandlisten]     distmod: windows-64
+2020-08-04T17:19:43.807+0530 I  CONTROL  [initandlisten]     distarch: x86_64
+2020-08-04T17:19:43.807+0530 I  CONTROL  [initandlisten]     target_arch: x86_64
+2020-08-04T17:19:43.807+0530 I  CONTROL  [initandlisten] options: { config: "F:/mongodb/test-server/mongod.conf", net: { port: 27017 }, storage: { dbPath: "F:/mongodb/test-server/mongodb-data" }, systemLog: { destination: "file", path: "F:/mongodb/test-server/mongod.log" } }
+2020-08-04T17:19:43.809+0530 I  STORAGE  [initandlisten] Detected data files in F:/mongodb/test-server/mongodb-data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2020-08-04T17:19:43.809+0530 I  STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3527M,cache_overflow=(file_max=0M),session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress],
+2020-08-04T17:19:43.893+0530 I  STORAGE  [initandlisten] WiredTiger message [1596541783:892886][13264:140717891149392], txn-recover: Recovering log 15 through 16
+2020-08-04T17:19:43.953+0530 I  STORAGE  [initandlisten] WiredTiger message [1596541783:952760][13264:140717891149392], txn-recover: Recovering log 16 through 16
+2020-08-04T17:19:44.024+0530 I  STORAGE  [initandlisten] WiredTiger message [1596541784:23573][13264:140717891149392], txn-recover: Main recovery loop: starting at 15/4864 to 16/256
+2020-08-04T17:19:44.138+0530 I  STORAGE  [initandlisten] WiredTiger message [1596541784:137268][13264:140717891149392], txn-recover: Recovering log 15 through 16
+2020-08-04T17:19:44.220+0530 I  STORAGE  [initandlisten] WiredTiger message [1596541784:220010][13264:140717891149392], txn-recover: Recovering log 16 through 16
+2020-08-04T17:19:44.279+0530 I  STORAGE  [initandlisten] WiredTiger message [1596541784:278852][13264:140717891149392], txn-recover: Set global recovery timestamp: (0, 0)
+2020-08-04T17:19:44.430+0530 I  RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2020-08-04T17:19:44.441+0530 I  STORAGE  [initandlisten] Timestamp monitor starting
+2020-08-04T17:19:44.543+0530 I  CONTROL  [initandlisten] 
+2020-08-04T17:19:44.543+0530 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2020-08-04T17:19:44.543+0530 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2020-08-04T17:19:44.543+0530 I  CONTROL  [initandlisten] 
+2020-08-04T17:19:44.543+0530 I  CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2020-08-04T17:19:44.543+0530 I  CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2020-08-04T17:19:44.543+0530 I  CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2020-08-04T17:19:44.543+0530 I  CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2020-08-04T17:19:44.543+0530 I  CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2020-08-04T17:19:44.543+0530 I  CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2020-08-04T17:19:44.543+0530 I  CONTROL  [initandlisten] 
+2020-08-04T17:19:44.547+0530 I  SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2020-08-04T17:19:44.548+0530 I  STORAGE  [initandlisten] Flow Control is enabled on this deployment.
+2020-08-04T17:19:44.548+0530 I  SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2020-08-04T17:19:44.548+0530 I  SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2020-08-04T17:19:44.550+0530 I  SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2020-08-04T17:19:44.695+0530 I  FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/mongodb/test-server/mongodb-data/diagnostic.data'
+2020-08-04T17:19:44.697+0530 I  SHARDING [LogicalSessionCacheRefresh] Marking collection config.system.sessions as collection version: <unsharded>
+2020-08-04T17:19:44.698+0530 I  SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2020-08-04T17:19:44.698+0530 I  NETWORK  [listener] Listening on 127.0.0.1
+2020-08-04T17:19:44.698+0530 I  NETWORK  [listener] waiting for connections on port 27017
+2020-08-04T17:19:45.002+0530 I  SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>

@@ -1,0 +1,103 @@
+2020-08-04T15:30:42.098+0530 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2020-08-04T15:30:42.100+0530 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2020-08-04T15:30:42.102+0530 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2020-08-04T15:30:42.103+0530 I  CONTROL  [initandlisten] MongoDB starting : pid=7036 port=27017 dbpath=F:/mongodb/test-server/mongodb-data 64-bit host=LAPTOP-5NU2LEHJ
+2020-08-04T15:30:42.103+0530 I  CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2020-08-04T15:30:42.103+0530 I  CONTROL  [initandlisten] db version v4.2.8
+2020-08-04T15:30:42.103+0530 I  CONTROL  [initandlisten] git version: 43d25964249164d76d5e04dd6cf38f6111e21f5f
+2020-08-04T15:30:42.104+0530 I  CONTROL  [initandlisten] allocator: tcmalloc
+2020-08-04T15:30:42.104+0530 I  CONTROL  [initandlisten] modules: enterprise 
+2020-08-04T15:30:42.104+0530 I  CONTROL  [initandlisten] build environment:
+2020-08-04T15:30:42.104+0530 I  CONTROL  [initandlisten]     distmod: windows-64
+2020-08-04T15:30:42.104+0530 I  CONTROL  [initandlisten]     distarch: x86_64
+2020-08-04T15:30:42.104+0530 I  CONTROL  [initandlisten]     target_arch: x86_64
+2020-08-04T15:30:42.104+0530 I  CONTROL  [initandlisten] options: { config: "mongod.conf", net: { port: 27017 }, storage: { dbPath: "F:/mongodb/test-server/mongodb-data" }, systemLog: { destination: "file", path: "F:/mongodb/test-server/mongod.log" } }
+2020-08-04T15:30:42.106+0530 I  STORAGE  [initandlisten] Detected data files in F:/mongodb/test-server/mongodb-data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2020-08-04T15:30:42.106+0530 I  STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3527M,cache_overflow=(file_max=0M),session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress],
+2020-08-04T15:30:42.185+0530 I  STORAGE  [initandlisten] WiredTiger message [1596535242:184928][7036:140717891149392], txn-recover: Recovering log 9 through 10
+2020-08-04T15:30:42.253+0530 I  STORAGE  [initandlisten] WiredTiger message [1596535242:252747][7036:140717891149392], txn-recover: Recovering log 10 through 10
+2020-08-04T15:30:42.329+0530 I  STORAGE  [initandlisten] WiredTiger message [1596535242:328545][7036:140717891149392], txn-recover: Main recovery loop: starting at 9/4864 to 10/256
+2020-08-04T15:30:42.450+0530 I  STORAGE  [initandlisten] WiredTiger message [1596535242:450219][7036:140717891149392], txn-recover: Recovering log 9 through 10
+2020-08-04T15:30:42.545+0530 I  STORAGE  [initandlisten] WiredTiger message [1596535242:545250][7036:140717891149392], txn-recover: Recovering log 10 through 10
+2020-08-04T15:30:42.608+0530 I  STORAGE  [initandlisten] WiredTiger message [1596535242:607798][7036:140717891149392], txn-recover: Set global recovery timestamp: (0, 0)
+2020-08-04T15:30:42.766+0530 I  RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2020-08-04T15:30:42.770+0530 I  STORAGE  [initandlisten] Timestamp monitor starting
+2020-08-04T15:30:42.818+0530 I  CONTROL  [initandlisten] 
+2020-08-04T15:30:42.818+0530 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2020-08-04T15:30:42.818+0530 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2020-08-04T15:30:42.818+0530 I  CONTROL  [initandlisten] 
+2020-08-04T15:30:42.818+0530 I  CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2020-08-04T15:30:42.818+0530 I  CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2020-08-04T15:30:42.818+0530 I  CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2020-08-04T15:30:42.818+0530 I  CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2020-08-04T15:30:42.818+0530 I  CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2020-08-04T15:30:42.818+0530 I  CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2020-08-04T15:30:42.818+0530 I  CONTROL  [initandlisten] 
+2020-08-04T15:30:42.822+0530 I  SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2020-08-04T15:30:42.823+0530 I  STORAGE  [initandlisten] Flow Control is enabled on this deployment.
+2020-08-04T15:30:42.823+0530 I  SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2020-08-04T15:30:42.823+0530 I  SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2020-08-04T15:30:42.825+0530 I  SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2020-08-04T15:30:43.078+0530 I  FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'F:/mongodb/test-server/mongodb-data/diagnostic.data'
+2020-08-04T15:30:43.096+0530 I  SHARDING [LogicalSessionCacheRefresh] Marking collection config.system.sessions as collection version: <unsharded>
+2020-08-04T15:30:43.104+0530 I  SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2020-08-04T15:30:43.128+0530 I  NETWORK  [listener] Listening on 127.0.0.1
+2020-08-04T15:30:43.128+0530 I  NETWORK  [listener] waiting for connections on port 27017
+2020-08-04T15:30:44.039+0530 I  SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>
+2020-08-04T15:41:36.007+0530 I  NETWORK  [listener] connection accepted from 127.0.0.1:60408 #1 (1 connection now open)
+2020-08-04T15:41:36.033+0530 I  NETWORK  [conn1] received client metadata from 127.0.0.1:60408 conn1: { driver: { name: "nodejs", version: "3.6.0" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v12.18.1, LE (unified)" }
+2020-08-04T15:41:36.055+0530 I  NETWORK  [listener] connection accepted from 127.0.0.1:60409 #2 (2 connections now open)
+2020-08-04T15:41:36.056+0530 I  NETWORK  [conn2] received client metadata from 127.0.0.1:60409 conn2: { driver: { name: "nodejs", version: "3.6.0" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v12.18.1, LE (unified)" }
+2020-08-04T15:41:36.085+0530 I  SHARDING [conn2] Marking collection task-manager.users as collection version: <unsharded>
+2020-08-04T15:41:53.664+0530 I  NETWORK  [conn2] end connection 127.0.0.1:60409 (0 connections now open)
+2020-08-04T15:41:53.664+0530 I  NETWORK  [conn1] end connection 127.0.0.1:60408 (1 connection now open)
+2020-08-04T15:42:01.893+0530 I  NETWORK  [listener] connection accepted from 127.0.0.1:60411 #3 (1 connection now open)
+2020-08-04T15:42:01.898+0530 I  NETWORK  [conn3] received client metadata from 127.0.0.1:60411 conn3: { driver: { name: "nodejs", version: "3.6.0" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v12.18.1, LE (unified)" }
+2020-08-04T15:42:01.906+0530 I  NETWORK  [listener] connection accepted from 127.0.0.1:60412 #4 (2 connections now open)
+2020-08-04T15:42:01.906+0530 I  NETWORK  [conn4] received client metadata from 127.0.0.1:60412 conn4: { driver: { name: "nodejs", version: "3.6.0" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v12.18.1, LE (unified)" }
+2020-08-04T15:42:05.109+0530 I  NETWORK  [conn4] end connection 127.0.0.1:60412 (0 connections now open)
+2020-08-04T15:42:05.109+0530 I  NETWORK  [conn3] end connection 127.0.0.1:60411 (1 connection now open)
+2020-08-04T15:42:10.339+0530 I  NETWORK  [listener] connection accepted from 127.0.0.1:60413 #5 (1 connection now open)
+2020-08-04T15:42:10.342+0530 I  NETWORK  [conn5] received client metadata from 127.0.0.1:60413 conn5: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.2.8" }, os: { type: "Windows", name: "Microsoft Windows 10", architecture: "x86_64", version: "10.0 (build 18362)" } }
+2020-08-04T15:42:37.809+0530 I  NETWORK  [conn5] end connection 127.0.0.1:60413 (0 connections now open)
+2020-08-04T16:33:08.295+0530 I  NETWORK  [listener] connection accepted from 127.0.0.1:60782 #6 (1 connection now open)
+2020-08-04T16:33:08.297+0530 I  NETWORK  [conn6] received client metadata from 127.0.0.1:60782 conn6: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.2.8" }, os: { type: "Windows", name: "Microsoft Windows 10", architecture: "x86_64", version: "10.0 (build 18362)" } }
+2020-08-04T16:34:19.672+0530 I  COMMAND  [conn6] dropDatabase task-manager - starting
+2020-08-04T16:34:19.677+0530 I  COMMAND  [conn6] dropDatabase task-manager - dropping collection: task-manager.users
+2020-08-04T16:34:19.677+0530 I  COMMAND  [conn6] dropDatabase task-manager - dropping collection: task-manager.tasks
+2020-08-04T16:34:19.842+0530 I  COMMAND  [conn6] dropDatabase task-manager - dropped 2 collection(s)
+2020-08-04T16:34:19.842+0530 I  COMMAND  [conn6] dropDatabase task-manager - finished
+2020-08-04T16:34:19.856+0530 I  COMMAND  [conn6] command task-manager appName: "MongoDB Shell" command: dropDatabase { dropDatabase: 1.0, lsid: { id: UUID("9bd150d5-fbcf-4bb9-82fd-f5830837f6f7") }, $db: "task-manager" } numYields:0 reslen:64 locks:{ ParallelBatchWriterMode: { acquireCount: { r: 1 } }, ReplicationStateTransition: { acquireCount: { w: 1 } }, Global: { acquireCount: { w: 1 } }, Database: { acquireCount: { W: 1 } }, Mutex: { acquireCount: { r: 1 } } } flowControl:{ acquireCount: 1, timeAcquiringMicros: 1 } storage:{} protocol:op_msg 184ms
+2020-08-04T16:34:55.864+0530 I  NETWORK  [conn6] end connection 127.0.0.1:60782 (0 connections now open)
+2020-08-04T16:38:06.171+0530 I  NETWORK  [listener] connection accepted from 127.0.0.1:60911 #7 (1 connection now open)
+2020-08-04T16:38:06.178+0530 I  NETWORK  [conn7] received client metadata from 127.0.0.1:60911 conn7: { driver: { name: "nodejs", version: "3.5.10" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v12.18.1, LE (legacy)" }
+2020-08-04T16:38:06.186+0530 I  STORAGE  [conn7] createCollection: task-manager.users with generated UUID: 37f62237-0aca-4214-be4f-03eea8cfae5e and options: {}
+2020-08-04T16:38:06.341+0530 I  INDEX    [conn7] index build: done building index _id_ on ns task-manager.users
+2020-08-04T16:38:06.342+0530 I  COMMAND  [conn7] command task-manager.users command: insert { insert: "users", documents: [ { _id: ObjectId('5f2941961d28b82fdc7645c2'), name: "Sumit", age: 21, __v: 0 } ], ordered: true, lsid: { id: UUID("ef03331c-4c9d-4b23-a600-0cb06af40d53") }, $db: "task-manager" } ninserted:1 keysInserted:1 numYields:0 reslen:45 locks:{ ParallelBatchWriterMode: { acquireCount: { r: 4 } }, ReplicationStateTransition: { acquireCount: { w: 4 } }, Global: { acquireCount: { w: 4 } }, Database: { acquireCount: { w: 3, W: 1 } }, Collection: { acquireCount: { r: 2, w: 2, W: 1 } }, Mutex: { acquireCount: { r: 3 } } } flowControl:{ acquireCount: 4, timeAcquiringMicros: 2 } storage:{} protocol:op_msg 155ms
+2020-08-04T16:38:40.114+0530 I  NETWORK  [conn7] end connection 127.0.0.1:60911 (0 connections now open)
+2020-08-04T16:38:43.251+0530 I  NETWORK  [listener] connection accepted from 127.0.0.1:60915 #8 (1 connection now open)
+2020-08-04T16:38:43.254+0530 I  NETWORK  [conn8] received client metadata from 127.0.0.1:60915 conn8: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.2.8" }, os: { type: "Windows", name: "Microsoft Windows 10", architecture: "x86_64", version: "10.0 (build 18362)" } }
+2020-08-04T16:39:13.313+0530 I  NETWORK  [conn8] end connection 127.0.0.1:60915 (0 connections now open)
+2020-08-04T16:40:02.325+0530 I  NETWORK  [listener] connection accepted from 127.0.0.1:60916 #9 (1 connection now open)
+2020-08-04T16:40:02.361+0530 I  NETWORK  [conn9] received client metadata from 127.0.0.1:60916 conn9: { driver: { name: "nodejs|Mongoose", version: "3.5.10" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v12.18.1, LE (unified)", version: "3.5.10|5.9.27" }
+2020-08-04T16:54:03.591+0530 I  NETWORK  [conn9] end connection 127.0.0.1:60916 (0 connections now open)
+2020-08-04T17:03:38.114+0530 I  NETWORK  [listener] connection accepted from 127.0.0.1:61046 #10 (1 connection now open)
+2020-08-04T17:03:38.115+0530 I  NETWORK  [conn10] received client metadata from 127.0.0.1:61046 conn10: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.2.8" }, os: { type: "Windows", name: "Microsoft Windows 10", architecture: "x86_64", version: "10.0 (build 18362)" } }
+2020-08-04T17:03:41.476+0530 I  NETWORK  [conn10] end connection 127.0.0.1:61046 (0 connections now open)
+2020-08-04T17:03:48.842+0530 I  CONTROL  [thread11] CTRL_CLOSE_EVENT signal
+2020-08-04T17:03:48.843+0530 I  CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2020-08-04T17:03:48.949+0530 I  NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2020-08-04T17:03:48.949+0530 I  -        [consoleTerminate] Stopping further Flow Control ticket acquisitions.
+2020-08-04T17:03:48.988+0530 I  FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2020-08-04T17:03:48.990+0530 I  STORAGE  [consoleTerminate] Deregistering all the collections
+2020-08-04T17:03:49.002+0530 I  STORAGE  [consoleTerminate] Timestamp monitor shutting down
+2020-08-04T17:03:49.009+0530 I  STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2020-08-04T17:03:49.009+0530 I  STORAGE  [consoleTerminate] Shutting down session sweeper thread
+2020-08-04T17:03:49.010+0530 I  STORAGE  [consoleTerminate] Finished shutting down session sweeper thread
+2020-08-04T17:03:49.010+0530 I  STORAGE  [consoleTerminate] Shutting down journal flusher thread
+2020-08-04T17:03:49.106+0530 I  STORAGE  [consoleTerminate] Finished shutting down journal flusher thread
+2020-08-04T17:03:49.106+0530 I  STORAGE  [consoleTerminate] Shutting down checkpoint thread
+2020-08-04T17:03:49.106+0530 I  STORAGE  [consoleTerminate] Finished shutting down checkpoint thread
+2020-08-04T17:03:49.335+0530 I  STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2020-08-04T17:03:49.366+0530 I  CONTROL  [consoleTerminate] now exiting
+2020-08-04T17:03:49.397+0530 I  CONTROL  [consoleTerminate] shutting down with code:12
