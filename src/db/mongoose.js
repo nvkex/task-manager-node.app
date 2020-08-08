@@ -32,7 +32,7 @@ const User = mongoose.model('User', {
 //         console.log(err);
 //     });
 
-const Task = mongoose.model('Task', {
+const Tasks = mongoose.model('Tasks', {
     description: {
         type: String
     },
@@ -41,7 +41,7 @@ const Task = mongoose.model('Task', {
     }
 });
 
-const new_task = new Task({
+const new_task = new Tasks({
     description: "Be cool!",
     completed: true
 });
