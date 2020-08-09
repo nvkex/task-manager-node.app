@@ -1,0 +1,66 @@
+2020-08-08T21:59:52.129+0530 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2020-08-08T21:59:52.141+0530 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2020-08-08T21:59:52.190+0530 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2020-08-08T21:59:52.192+0530 I  CONTROL  [initandlisten] MongoDB starting : pid=8824 port=27017 dbpath=database/mongodb-data 64-bit host=LAPTOP-5NU2LEHJ
+2020-08-08T21:59:52.192+0530 I  CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2020-08-08T21:59:52.192+0530 I  CONTROL  [initandlisten] db version v4.2.8
+2020-08-08T21:59:52.192+0530 I  CONTROL  [initandlisten] git version: 43d25964249164d76d5e04dd6cf38f6111e21f5f
+2020-08-08T21:59:52.192+0530 I  CONTROL  [initandlisten] allocator: tcmalloc
+2020-08-08T21:59:52.192+0530 I  CONTROL  [initandlisten] modules: enterprise 
+2020-08-08T21:59:52.192+0530 I  CONTROL  [initandlisten] build environment:
+2020-08-08T21:59:52.192+0530 I  CONTROL  [initandlisten]     distmod: windows-64
+2020-08-08T21:59:52.192+0530 I  CONTROL  [initandlisten]     distarch: x86_64
+2020-08-08T21:59:52.192+0530 I  CONTROL  [initandlisten]     target_arch: x86_64
+2020-08-08T21:59:52.192+0530 I  CONTROL  [initandlisten] options: { config: "database/mongod.conf", net: { port: 27017 }, storage: { dbPath: "database/mongodb-data" }, systemLog: { destination: "file", path: "database/logs/mongod.log" } }
+2020-08-08T21:59:52.341+0530 W  STORAGE  [initandlisten] Detected unclean shutdown - database/mongodb-data\mongod.lock is not empty.
+2020-08-08T21:59:52.352+0530 I  STORAGE  [initandlisten] Detected data files in database/mongodb-data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2020-08-08T21:59:52.352+0530 W  STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2020-08-08T21:59:52.352+0530 I  STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3527M,cache_overflow=(file_max=0M),session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress],
+2020-08-08T21:59:52.639+0530 I  STORAGE  [initandlisten] WiredTiger message [1596904192:638442][8824:140717891149392], txn-recover: Recovering log 20 through 21
+2020-08-08T21:59:52.710+0530 I  STORAGE  [initandlisten] WiredTiger message [1596904192:710285][8824:140717891149392], txn-recover: Recovering log 21 through 21
+2020-08-08T21:59:52.787+0530 I  STORAGE  [initandlisten] WiredTiger message [1596904192:787065][8824:140717891149392], txn-recover: Main recovery loop: starting at 20/46976 to 21/256
+2020-08-08T21:59:52.807+0530 I  STORAGE  [initandlisten] WiredTiger message [1596904192:806991][8824:140717891149392], txn-recover: Recovering log 20 through 21
+2020-08-08T21:59:53.087+0530 I  STORAGE  [initandlisten] WiredTiger message [1596904193:86572][8824:140717891149392], file:sizeStorer.wt, txn-recover: Recovering log 21 through 21
+2020-08-08T21:59:53.145+0530 I  STORAGE  [initandlisten] WiredTiger message [1596904193:145087][8824:140717891149392], file:sizeStorer.wt, txn-recover: Set global recovery timestamp: (0, 0)
+2020-08-08T21:59:53.560+0530 I  RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2020-08-08T21:59:53.678+0530 I  STORAGE  [initandlisten] Timestamp monitor starting
+2020-08-08T21:59:53.722+0530 I  CONTROL  [initandlisten] 
+2020-08-08T21:59:53.722+0530 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2020-08-08T21:59:53.722+0530 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2020-08-08T21:59:53.722+0530 I  CONTROL  [initandlisten] 
+2020-08-08T21:59:53.722+0530 I  CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2020-08-08T21:59:53.722+0530 I  CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2020-08-08T21:59:53.722+0530 I  CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2020-08-08T21:59:53.722+0530 I  CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2020-08-08T21:59:53.722+0530 I  CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2020-08-08T21:59:53.722+0530 I  CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2020-08-08T21:59:53.723+0530 I  CONTROL  [initandlisten] 
+2020-08-08T21:59:53.794+0530 I  SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2020-08-08T21:59:53.830+0530 I  STORAGE  [initandlisten] Flow Control is enabled on this deployment.
+2020-08-08T21:59:53.835+0530 I  SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2020-08-08T21:59:53.837+0530 I  SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2020-08-08T21:59:53.914+0530 I  SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2020-08-08T21:59:54.167+0530 I  FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'database/mongodb-data/diagnostic.data'
+2020-08-08T21:59:54.169+0530 I  SHARDING [LogicalSessionCacheRefresh] Marking collection config.system.sessions as collection version: <unsharded>
+2020-08-08T21:59:54.170+0530 I  SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2020-08-08T21:59:54.200+0530 I  NETWORK  [listener] Listening on 127.0.0.1
+2020-08-08T21:59:54.200+0530 I  NETWORK  [listener] waiting for connections on port 27017
+2020-08-08T21:59:55.345+0530 I  FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+2020-08-08T21:59:56.262+0530 I  SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>
+2020-08-08T23:02:51.218+0530 I  CONTROL  [thread1] CTRL_CLOSE_EVENT signal
+2020-08-08T23:02:51.218+0530 I  CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2020-08-08T23:02:51.483+0530 I  NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2020-08-08T23:02:51.483+0530 I  -        [consoleTerminate] Stopping further Flow Control ticket acquisitions.
+2020-08-08T23:02:51.492+0530 I  FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2020-08-08T23:02:51.494+0530 I  STORAGE  [consoleTerminate] Deregistering all the collections
+2020-08-08T23:02:51.509+0530 I  STORAGE  [consoleTerminate] Timestamp monitor shutting down
+2020-08-08T23:02:51.514+0530 I  STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2020-08-08T23:02:51.514+0530 I  STORAGE  [consoleTerminate] Shutting down session sweeper thread
+2020-08-08T23:02:51.521+0530 I  STORAGE  [consoleTerminate] Finished shutting down session sweeper thread
+2020-08-08T23:02:51.521+0530 I  STORAGE  [consoleTerminate] Shutting down journal flusher thread
+2020-08-08T23:02:51.555+0530 I  STORAGE  [consoleTerminate] Finished shutting down journal flusher thread
+2020-08-08T23:02:51.555+0530 I  STORAGE  [consoleTerminate] Shutting down checkpoint thread
+2020-08-08T23:02:51.555+0530 I  STORAGE  [consoleTerminate] Finished shutting down checkpoint thread
+2020-08-08T23:02:51.962+0530 I  STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2020-08-08T23:02:51.962+0530 I  CONTROL  [consoleTerminate] now exiting
+2020-08-08T23:02:51.980+0530 I  CONTROL  [consoleTerminate] shutting down with code:12
