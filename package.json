@@ -10,7 +10,7 @@
   "author": "nvkex",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongodb": "^3.6.0",
     "mongoose": "^5.9.27",
     "validator": "^13.1.1"
